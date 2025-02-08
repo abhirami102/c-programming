@@ -8,20 +8,22 @@ int main(){
  scanf(" %c",&op);
  switch(op){
  case '+':
- printf("\nsum:%d",n1+n2);
+ printf("\n%d+%d:%d",n1,n2,n1+n2);
  break;
  case '-':
- printf("\ndifference:%d",n1-n2);
+ printf("\n%d-%d:%d",n1,n2,n1-n2);
  break;
  case '/':
- printf("\ndivision:%d",n1/n2);
+ printf("\n%d/%d:%d",n1,n2,n1/n2);
  break;
  case '%':
- printf("\nreminder:%d",n1%n2);
+ printf("\n%d%%d:%d",n1,n2,n1%n2);
  break;
  case '*':
- printf("\nproduct:%d",n1*n2);
+ printf("\n%d*%d:%d",n1,n2,n1*n2);
  break;
+  default:
+   printf("invalid input");
  }
  return 0;
 }
